@@ -11,8 +11,8 @@ Original file is located at
 
 import pandas as pd
 
-train_data = pd.read_csv('/content/train.csv')
-test_data = pd.read_csv('/content/test.csv')
+train_data = pd.read_csv('dataset in csv format')
+test_data = pd.read_csv('dataset in csv format')
 
 print(train_data.shape)
 print(test_data.shape)
@@ -170,8 +170,8 @@ plt.show()
 
 import pandas as pd
 
-fake = pd.read_csv("/content/drive/MyDrive/DataSets/fake_news/Fake.csv")
-true = pd.read_csv('/content/drive/MyDrive/DataSets/fake_news/True.csv')
+fake = pd.read_csv("dataset in csv format")
+true = pd.read_csv('dataset in csv format')
 
 print(fake.shape)
 print(true.shape)
